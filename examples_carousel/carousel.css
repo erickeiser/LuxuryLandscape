@@ -211,7 +211,7 @@ display: grid;
   .wrapper > * {
     padding: 2em;
   }
-  .company-info h3, .company-info ul, .brand {
+  .company-info, .company-info ul, .brand {
     text-align: center;
   }
   
