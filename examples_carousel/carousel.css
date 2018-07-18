@@ -212,8 +212,9 @@ display: grid;
     padding: 2em;
   }
   .company-info h3, .company-info ul, .brand {
-    text-align: left;
+    text-align: center;
   }
+  
 }
 
 #contactForm {
@@ -257,10 +258,11 @@ display: grid;
     display: block;
     margin-bottom: 4rem;
   }
-    
-
   #services {
     text-align: center;
   }
+
+  
+
 }
 
