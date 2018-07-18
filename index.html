@@ -11,6 +11,8 @@
       <!-- Bootstrap core CSS -->
       <link href="/dist/css/bootstrap.css" rel="stylesheet">
       <link rel="stylesheet" href="/dist/css/animate.css">
+      <!-- <link rel="stylesheet" href="/examples_carousel/fontawesome-all.min.css"> -->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
    
    
       <!-- Custom styles for this template -->
@@ -27,11 +29,14 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
               <ul class="navbar-nav ">
                 <li class="nav-item">
-                  <a class="nav-link animated bounceInLeft ml-auto" href="#home">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link animated bounceInLeft ml-auto" href="#">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link animated bounceInUp" href="#services">Services</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link animated bounceInUp" href="#ourteam">Our Team</a>
+                  </li>
                 <li class="nav-item">
                   <a class="nav-link animated bounceInRight " href="#contact">Contact Us</a>
                 </li>
@@ -56,8 +61,11 @@
     <!-- Wrap the rest of the page in another container to center all the content. -->
       
         <div class="container marketing">
-        
-     
+          <div id="services" class="our-services">
+            <h1>Our <span class="green">Services</span></h1>
+        </div>  
+
+        <hr class="featurette-divider">
 
 
       <!-- START THE FEATURETTES -->
@@ -104,37 +112,100 @@
       <!-- /END THE FEATURETTES -->
 
     </div><!-- /.container -->
+    
 
-     <!-- Three columns of text below the carousel -->
-     <div id="services" class="row">
-        <div class="col-lg-4 img1">
-          
-          <img class="rounded-circle" src="img/pexels.jpg" alt="Generic placeholder image" width="200" height="200">
-          <h2 class="green">Zach</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore atque odio debitis mollitia, vitae accusantium modi maxime odit labore rem!</p>
-          
-        </div> <!-- /.col-lg-4 -->
-        <div class="col-lg-4 img2">
-          <img class="rounded-circle" src="/img/pexels.jpg" alt="Generic placeholder image" width="200" height="200">
-          <h2 class="green">Mark</h2>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae cupiditate esse reiciendis iste aut obcaecati magnam? Repellendus ducimus placeat officiis.</p>
-          
-        </div> <!-- /.col-lg-4 -->
-        <div class="col-lg-4 animated img3">
-          <img class="rounded-circle" src="/img/pexels.jpg" alt="Generic placeholder image" width="200" height="200">
-          <h2 class="green">John</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat praesentium atque eveniet labore odit, quisquam quia illum nam velit mollitia?</p>
-         
-        </div> <!-- /.col-lg-4 -->
-      </div> <!-- /.row -->
+      
+      <div class="container">
+      <div id="contact-content" class="animated bounceInLeft">
+          <div id="contact" class="company-info">
+            <h3 class='getMe'>Contact Us:</h3>
+            <ul>
+              <li>
+                <i class="fas fa-road"></i>7751 Palace Court</li>
+              <li>
+                <i class="fas fa-phone"></i>(423) 432-9466</li>
+              <li>
+                <i class="fas fa-envelope"></i>chattadev@gmail.com</li>
+            </ul>
+          </div>
+          <br>
+          <br>
+          <br>
+          <div class="contact">
+            <div class="alert">
+              Your Message has been sent
+            </div>
+      
+            <form id="contactForm">
+              <p>
+                <label>Name:</label>
+                <input type="text" name="name" id="name" required>
+              </p>
+              <p>
+                <label>Comany:</label>
+                <input type="text" name="Company" id="company">
+              </p>
+              <p>
+                <label>Email:</label>
+                <input type="email" name="email" id="email" required>
+              </p>
+              <p>
+                <label>Phone Number:</label>
+                <input type="phone" name="phone" id="phone" required>
+              </p>
+              <p class="full">
+                <label>Message:</label>
+                <textarea name="Message" rows="5" id="message" required></textarea>
+              </p>
+              <p class="full">
+                <button type="submit">Submit</button>
+              </p>
+      
+            </form>
+      
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>
 
-      <hr class="featurette-divider">
+    <div class="our-team">
+        <h1>Our Team</h1>
+      </div>
+    
+         <!-- Three columns of text below the carousel -->
+         <div id="team" class="container-fluid">
+         <div id="ourteam" class="row">
+            <div class="col-lg-4 img1">
+              
+              <img class="rounded-circle" src="img/pexels.jpg" alt="Generic placeholder image" width="200" height="200">
+              <h2 class="green">Zach</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore atque odio debitis mollitia, vitae accusantium modi maxime odit labore rem!</p>
+              
+            </div> <!-- /.col-lg-4 -->
+            <div class="col-lg-4 img2">
+              <img class="rounded-circle" src="/img/pexels.jpg" alt="Generic placeholder image" width="200" height="200">
+              <h2 class="green">Mark</h2>
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae cupiditate esse reiciendis iste aut obcaecati magnam? Repellendus ducimus placeat officiis.</p>
+              
+            </div> <!-- /.col-lg-4 -->
+            <div class="col-lg-4 animated img3">
+              <img class="rounded-circle" src="/img/pexels.jpg" alt="Generic placeholder image" width="200" height="200">
+              <h2 class="green">John</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat praesentium atque eveniet labore odit, quisquam quia illum nam velit mollitia?</p>
+             
+            </div> <!-- /.col-lg-4 -->
+          </div> <!-- /.row -->
+        </div>
 
+        <hr class="featurette-divider">
 
     <!-- FOOTER -->
     <footer class="container">
       <p class="float-right"><a href="#">Back to top</a></p>
-      <p>&copy; 2018 Luxury Landscape, LLC 
+      <p>&copy; 2018 Luxury Landscape, LLC</p>
+      <p>Site built and maintaned by Keiser Media</p>
     </footer>
   
 
