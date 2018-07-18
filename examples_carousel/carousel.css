@@ -64,8 +64,9 @@ a.nav-link:hover {
   margin-bottom: 40px;
 }
 
-.rounded-circle {
+.img1, .img2, .img3 {
   text-align: center;
+  margin-bottom: 5em;
 }
 
 .dominate {
@@ -76,6 +77,8 @@ a.nav-link:hover {
   margin-left: 16.66%;
   margin-right: 16.66%;
 }
+
+
 
 @keyframes first-slide {
   from {
@@ -218,7 +221,7 @@ display: grid;
 }
 
 
-/* RESUME BUTTON */
+
   
   
   
@@ -237,7 +240,7 @@ display: grid;
 
 /* media queries for responsive design
 ---------------------------------------- */
-@media screen and (max-width:480px) {
+@media screen and (max-width:768px) {
   .banner {
    display: none;
   }
